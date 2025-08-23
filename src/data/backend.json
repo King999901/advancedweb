@@ -1,0 +1,75 @@
+{
+  "course": {
+    "title": "مهارت‌های نوین توسعه وب",
+    "semester": "پاییز ۱۴۰۴",
+    "units": 4,
+    "schedule": "دوشنبه و پنج‌شنبه ۱۵:۰۰ تا ۱۷:۳۰",
+    "description": "در این دوره با آخرین فناوری‌های وب، مفاهیم مدرن Frontend و Backend و طراحی رابط کاربری حرفه‌ای آشنا می‌شوید. تمرکز بر پروژه‌های عملی و تجربه واقعی توسعه است.",
+    "prerequisites": [
+      "آشنایی با HTML، CSS و JavaScript",
+      "دانش پایه‌ای React",
+      "آشنایی با مفاهیم پایگاه داده"
+    ],
+    "objectives": [
+      "طراحی رابط کاربری مدرن و تعاملی",
+      "ایجاد API و مدیریت داده‌ها با Node.js",
+      "ادغام Frontend و Backend برای اپلیکیشن واقعی"
+    ],
+    "topics": [
+      "مبانی React و Hooks پیشرفته",
+      "مدیریت وضعیت با Context و Redux",
+      "ساخت RESTful API با Express",
+      "کار با دیتابیس PostgreSQL و MongoDB",
+      "پیاده‌سازی Authentication و Authorization",
+      "ساخت پروژه پایانی با استانداردهای واقعی"
+    ],
+    "resources": [
+      "مستندات رسمی React و Node.js",
+      "کتاب‌های مرجع توسعه وب مدرن",
+      "ویدئوهای آموزشی پروژه محور",
+      "مقالات و منابع آنلاین به‌روز"
+    ],
+    "syllabusLink": "https://example.com/modern-web-syllabus.pdf"
+  }
+  ,
+   "Teacher": {
+    "name": "مهندس علی رضایی",
+    "titles": ["Full-Stack Developer", "UI/UX Enthusiast", "Mentor", "Tech Speaker"],
+    "image": "https://i.pravatar.cc/300?img=32",
+    "about": "مهندس رضایی با بیش از ۱۰ سال تجربه در توسعه وب و طراحی رابط کاربری، علاقه‌مند به پروژه‌های عملی و آموزش تعاملی است. او با تمرکز روی تجربه واقعی کاربر، دانش خود را به دانشجویان منتقل می‌کند.",
+    
+    "skills": {
+      "web": ["React پیشرفته", "Node.js و Express", "TailwindCSS", "Responsive Design", "API Integration", "Next.js", "TypeScript", "GraphQL"],
+      "research": ["تحلیل نیازمندی‌ها", "بهینه‌سازی عملکرد", "مستندسازی پروژه‌ها", "Design Thinking", "Usability Testing", "A/B Testing"]
+    },
+
+    "achievements": [
+      "سخنران در کنفرانس توسعه وب ۱۴۰۲",
+      "برنده جایزه بهترین پروژه آموزشی آنلاین ۱۴۰۱",
+      "منتشر شده در مجلات تخصصی UI/UX"
+    ],
+
+    "experience": [
+      {
+        "role": "Senior Frontend Developer",
+        "company": "TechNova",
+        "duration": "۱۳۹۶ - ۱۴۰۲",
+        "details": "توسعه اپلیکیشن‌های SPA با React و بهینه‌سازی عملکرد برای تجربه کاربری بهتر."
+      },
+      {
+        "role": "Full-Stack Developer",
+        "company": "WebSolutions",
+        "duration": "۱۳۹۲ - ۱۳۹۶",
+        "details": "پیاده‌سازی API و ساخت اپلیکیشن‌های وب با Node.js و React."
+      }
+    ],
+
+    "contact": {
+      "email": "ali.rezaei@example.com",
+      "linkedin": "https://linkedin.com/in/ali-rezaei",
+      "website": "https://alirezaei.dev",
+      "github": "https://github.com/alirezaei",
+      "twitter": "https://twitter.com/alirezaei"
+    }
+  }
+}
