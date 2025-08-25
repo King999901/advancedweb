@@ -69,7 +69,7 @@
   animation: continuous-fade 4s ease-in-out infinite;
 }
 
-/* Badge ها scale دائمی */
+
 @keyframes continuous-scale {
   0%,
   100% {
