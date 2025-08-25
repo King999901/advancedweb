@@ -1,41 +1,69 @@
 @import "tailwindcss";
 @font-face {
-  font-family: 'vazir';
-  src: url('../public/fonts/Vazir.ttf');
+  font-family: "vazir";
+  src: url("/fonts/Vazir.ttf");
 }
-*{
-  font-family: 'vazir';
+* {
+  font-family: "vazir";
   /* overflow-x: hidden; */
 }
 /* در index.css یا global.css اضافه کن */
 @keyframes float-slow {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes rotate-slow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes slide-up {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
-.animate-rotate-slow { animation: rotate-slow 20s linear infinite; }
-.animate-slide-up { animation: slide-up 1s ease forwards; }
-.animate-slide-up.delay-200 { animation-delay: 0.2s; }
-.animate-slide-up.delay-400 { animation-delay: 0.4s; }
-
-
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+.animate-rotate-slow {
+  animation: rotate-slow 20s linear infinite;
+}
+.animate-slide-up {
+  animation: slide-up 1s ease forwards;
+}
+.animate-slide-up.delay-200 {
+  animation-delay: 0.2s;
+}
+.animate-slide-up.delay-400 {
+  animation-delay: 0.4s;
+}
 
 /* ourcourses section */
 /* کارت‌ها fade ثابت */
 @keyframes continuous-fade {
-  0%, 100% { opacity: 0.9; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 .continuous-fade {
   animation: continuous-fade 4s ease-in-out infinite;
@@ -43,8 +71,13 @@
 
 /* Badge ها scale دائمی */
 @keyframes continuous-scale {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 .continuous-scale {
   animation: continuous-scale 3s ease-in-out infinite;
@@ -52,8 +85,13 @@
 
 /* li ها slide دائمی */
 @keyframes continuous-slide {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(5px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
 }
 .continuous-slide {
   animation: continuous-slide 4s ease-in-out infinite;
@@ -66,19 +104,19 @@
 /* فقط برای مرورگرهای WebKit (Chrome، Edge، Safari) */
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;       /* رنگ پس‌زمینه */
+  background: #f1f1f1; /* رنگ پس‌زمینه */
   border-radius: 100vh;
 }
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #4f46e5, #9333ea); /* گرادینت خوشگل */
   border-radius: 100vh;
-  border: 2px solid #f1f1f1;  /* فاصله از لبه برای نرم‌تر شدن */
+  border: 2px solid #f1f1f1; /* فاصله از لبه برای نرم‌تر شدن */
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #6366f1, #a855f7); /* افکت هاور */
 }
 .scrollbar-hide::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
