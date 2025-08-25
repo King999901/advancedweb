@@ -83,7 +83,7 @@
   animation: continuous-scale 3s ease-in-out infinite;
 }
 
-/* li ها slide دائمی */
+
 @keyframes continuous-slide {
   0%,
   100% {
@@ -97,11 +97,6 @@
   animation: continuous-slide 4s ease-in-out infinite;
 }
 
-/* scrollbar */
-
-/* در فایل globals.css یا index.css اضافه کن */
-
-/* فقط برای مرورگرهای WebKit (Chrome، Edge، Safari) */
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1; /* رنگ پس‌زمینه */

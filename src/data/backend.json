@@ -30,25 +30,42 @@
       "مقالات و منابع آنلاین به‌روز"
     ],
     "syllabusLink": "https://example.com/modern-web-syllabus.pdf"
-  }
-  ,
-   "Teacher": {
+  },
+  "Teacher": {
     "name": "مهندس علی رضایی",
-    "titles": ["Full-Stack Developer", "UI/UX Enthusiast", "Mentor", "Tech Speaker"],
+    "titles": [
+      "Full-Stack Developer",
+      "UI/UX Enthusiast",
+      "Mentor",
+      "Tech Speaker"
+    ],
     "image": "https://i.pravatar.cc/300?img=32",
     "about": "مهندس رضایی با بیش از ۱۰ سال تجربه در توسعه وب و طراحی رابط کاربری، علاقه‌مند به پروژه‌های عملی و آموزش تعاملی است. او با تمرکز روی تجربه واقعی کاربر، دانش خود را به دانشجویان منتقل می‌کند.",
-    
     "skills": {
-      "web": ["React پیشرفته", "Node.js و Express", "TailwindCSS", "Responsive Design", "API Integration", "Next.js", "TypeScript", "GraphQL"],
-      "research": ["تحلیل نیازمندی‌ها", "بهینه‌سازی عملکرد", "مستندسازی پروژه‌ها", "Design Thinking", "Usability Testing", "A/B Testing"]
+      "web": [
+        "React پیشرفته",
+        "Node.js و Express",
+        "TailwindCSS",
+        "Responsive Design",
+        "API Integration",
+        "Next.js",
+        "TypeScript",
+        "GraphQL"
+      ],
+      "research": [
+        "تحلیل نیازمندی‌ها",
+        "بهینه‌سازی عملکرد",
+        "مستندسازی پروژه‌ها",
+        "Design Thinking",
+        "Usability Testing",
+        "A/B Testing"
+      ]
     },
-
     "achievements": [
       "سخنران در کنفرانس توسعه وب ۱۴۰۲",
       "برنده جایزه بهترین پروژه آموزشی آنلاین ۱۴۰۱",
       "منتشر شده در مجلات تخصصی UI/UX"
     ],
-
     "experience": [
       {
         "role": "Senior Frontend Developer",
@@ -63,7 +80,6 @@
         "details": "پیاده‌سازی API و ساخت اپلیکیشن‌های وب با Node.js و React."
       }
     ],
-
     "contact": {
       "email": "ali.rezaei@example.com",
       "linkedin": "https://linkedin.com/in/ali-rezaei",
@@ -71,5 +87,246 @@
       "github": "https://github.com/alirezaei",
       "twitter": "https://twitter.com/alirezaei"
     }
-  }
+  },
+  "students": [
+    {
+      "id": "1",
+      "name": "علی رضایی",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "major": "کامپیوتر",
+      "gpa": 18.5,
+      "year": 1401,
+      "interests": [
+        "برنامه نویسی",
+        "هوش مصنوعی",
+        "بازی‌سازی"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 5,
+      "totalActivities": 10
+    },
+    {
+      "id": "2",
+      "name": "سارا محمدی",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "major": "مکانیک",
+      "gpa": 17.8,
+      "year": 1400,
+      "interests": [
+        "رباتیک",
+        "طراحی CAD",
+        "پرینت سه بعدی"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": 7,
+      "totalActivities": 10
+    },
+    {
+      "id": "3",
+      "name": "رضا حسینی",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "major": "برق",
+      "gpa": 19.2,
+      "year": 1401,
+      "interests": [
+        "مدارها",
+        "کنترل",
+        "رباتیک"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 8,
+      "totalActivities": 10
+    },
+    {
+      "id": "4",
+      "name": "نگار فراهانی",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "major": "کامپیوتر",
+      "gpa": "18",
+      "year": 1399,
+      "interests": [
+        "UI/UX",
+        "فرانت‌اند",
+        "React"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": "10",
+      "totalActivities": 10
+    },
+    {
+      "id": "5",
+      "name": "امیر کاظمی",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "major": "مکانیک",
+      "gpa": 16.8,
+      "year": 1400,
+      "interests": [
+        "ماشین آلات",
+        "اتوماسیون",
+        "CAD"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": "8",
+      "totalActivities": 10
+    },
+    {
+      "id": "6",
+      "name": "الهام کریمی",
+      "avatar": "https://i.pravatar.cc/150?img=6",
+      "major": "برق",
+      "gpa": 18,
+      "year": 1401,
+      "interests": [
+        "مدارهای دیجیتال",
+        "هوش مصنوعی"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 7,
+      "totalActivities": 10
+    },
+    {
+      "id": "7",
+      "name": "محمد صالحی",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "major": "کامپیوتر",
+      "gpa": 17.2,
+      "year": 1400,
+      "interests": [
+        "Python",
+        "دیتابیس",
+        "React"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": 5,
+      "totalActivities": 10
+    },
+    {
+      "id": "8",
+      "name": "لیلا احمدی",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "major": "مکانیک",
+      "gpa": 18.1,
+      "year": 1401,
+      "interests": [
+        "رباتیک",
+        "طراحی CAD",
+        "اتوماسیون"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 8,
+      "totalActivities": 10
+    },
+    {
+      "id": "9",
+      "name": "حسین محمودی",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "major": "برق",
+      "gpa": 16.5,
+      "year": 1399,
+      "interests": [
+        "مدار",
+        "برق قدرت",
+        "کنترل"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": 5,
+      "totalActivities": 10
+    },
+    {
+      "id": "10",
+      "name": "مینا سلطانی",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "major": "کامپیوتر",
+      "gpa": 19,
+      "year": 1401,
+      "interests": [
+        "Fullstack",
+        "Node.js",
+        "React"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 9,
+      "totalActivities": 10
+    },
+    {
+      "id": "11",
+      "name": "پوریا رحیمی",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "major": "مکانیک",
+      "gpa": 17.3,
+      "year": 1400,
+      "interests": [
+        "اتوماسیون",
+        "رباتیک",
+        "CAD"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": 6,
+      "totalActivities": 10
+    },
+    {
+      "id": "12",
+      "name": "سمیه نصیری",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "major": "برق",
+      "gpa": 18.7,
+      "year": 1401,
+      "interests": [
+        "الکترونیک",
+        "هوش مصنوعی",
+        "کنترل"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 8,
+      "totalActivities": 10
+    },
+    {
+      "id": "13",
+      "name": "رضوان قاسمی",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "major": "کامپیوتر",
+      "gpa": 16.9,
+      "year": 1400,
+      "interests": [
+        "Python",
+        "دیتابیس",
+        "Frontend"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": 5,
+      "totalActivities": 10
+    },
+    {
+      "id": "14",
+      "name": "نرگس صادقی",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "major": "مکانیک",
+      "gpa": 17.9,
+      "year": 1401,
+      "interests": [
+        "CAD",
+        "رباتیک",
+        "اتوماسیون"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 7,
+      "totalActivities": 10
+    },
+    {
+      "id": "15",
+      "name": "مهدی کریمی",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "major": "برق",
+      "gpa": 18.2,
+      "year": 1400,
+      "interests": [
+        "مدارهای دیجیتال",
+        "Power",
+        "کنترل"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": 8,
+      "totalActivities": 10
+    }
+  ]
 }
