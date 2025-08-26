@@ -9,11 +9,13 @@ import { Routes, Route } from "react-router-dom";
 import LinkToStudents from "./components/LinkToStudent";
 import Login from "./components/login";
 import StudentEdit from "./components/StudentEdit";
+import ScrollHandler from "./components/ScrollHandler";
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollHandler />
       <Routes>
         {/* صفحه اصلی */}
         <Route
@@ -22,12 +24,12 @@ function App() {
             <>
               <Hero />
               <OurCourses />
-              <Teacher />
               <LinkToStudents />
+              <Teacher />
             </>
           }
         />
-
+        <Route path="/login" element={<Login />} />
         {/* صفحه لیست دانشجوها */}
         <Route path="/students" element={<StudentList />} />
 
