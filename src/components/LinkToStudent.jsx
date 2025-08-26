@@ -6,7 +6,7 @@ export default function LinkBox() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-200 via-pink-200 to-pink-100 flex items-center justify-center p-6">
+    <div id="students" className="min-h-screen bg-gradient-to-b from-purple-200 via-pink-200 to-pink-100 flex items-center justify-center p-6">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

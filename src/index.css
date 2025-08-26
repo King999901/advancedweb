@@ -5,9 +5,10 @@
 }
 * {
   font-family: "vazir";
-  /* overflow-x: hidden; */
+ scroll-behavior: smooth;
+  scroll-margin-top: 100px;
 }
-/* در index.css یا global.css اضافه کن */
+
 @keyframes float-slow {
   0%,
   100% {

@@ -27,7 +27,7 @@ const OurCourses = () => {
   };
 
   return (
-    <section className="modern-course max-w-5xl mx-auto my-12 px-6">
+    <section id="course" className="modern-course max-w-5xl mx-auto my-12 px-6">
       <motion.h2 
         className="text-3xl font-bold text-center text-[#1E40AF] mb-10"
         whileHover={{ scale: 1.05 }}

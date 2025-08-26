@@ -39,7 +39,7 @@
       "Mentor",
       "Tech Speaker"
     ],
-    "image": "https://i.pravatar.cc/300?img=32",
+    "image": "/images/teacher.jpg",
     "about": "مهندس رضایی با بیش از ۱۰ سال تجربه در توسعه وب و طراحی رابط کاربری، علاقه‌مند به پروژه‌های عملی و آموزش تعاملی است. او با تمرکز روی تجربه واقعی کاربر، دانش خود را به دانشجویان منتقل می‌کند.",
     "skills": {
       "web": [
@@ -91,7 +91,7 @@
   "students": [
     {
       "id": "1",
-      "name": "علی رضایی",
+      "name": "علی کریمی",
       "avatar": "https://i.pravatar.cc/150?img=1",
       "major": "کامپیوتر",
       "gpa": 18.5,
@@ -119,22 +119,6 @@
       ],
       "level": "متوسط",
       "activitiesCompleted": 7,
-      "totalActivities": 10
-    },
-    {
-      "id": "3",
-      "name": "رضا حسینی",
-      "avatar": "https://i.pravatar.cc/150?img=3",
-      "major": "برق",
-      "gpa": 19.2,
-      "year": 1401,
-      "interests": [
-        "مدارها",
-        "کنترل",
-        "رباتیک"
-      ],
-      "level": "پیشرفته",
-      "activitiesCompleted": 8,
       "totalActivities": 10
     },
     {
@@ -327,6 +311,45 @@
       "level": "پیشرفته",
       "activitiesCompleted": 8,
       "totalActivities": 10
+    },
+    {
+      "id": "1b15",
+      "name": "ابولفضل",
+      "major": "رمضانی",
+      "gpa": "18",
+      "year": "1399",
+      "interests": [
+        "frontend"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": "6",
+      "totalActivities": "10"
+    },
+    {
+      "id": "3048",
+      "name": "مژگان",
+      "major": "رمضانی",
+      "gpa": "17",
+      "year": "1400",
+      "interests": [
+        "backend"
+      ],
+      "level": "متوسط",
+      "activitiesCompleted": "10",
+      "totalActivities": "20"
+    },
+    {
+      "id": "3f87",
+      "name": "سارا",
+      "major": "بیاتی",
+      "gpa": "17",
+      "year": "1401",
+      "interests": [
+        "CSS"
+      ],
+      "level": "پیشرفته",
+      "activitiesCompleted": "5",
+      "totalActivities": "10"
     }
   ]
 }
